@@ -1,0 +1,19 @@
+{
+  "name": "mi-site",
+  "version": "1.0.0",
+  "description": "Site for my band, Memórias Idôneas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fshanom/mi-site.git"
+  },
+  "author": "Filipe Shanom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fshanom/mi-site/issues"
+  },
+  "homepage": "https://github.com/fshanom/mi-site#readme"
+}
