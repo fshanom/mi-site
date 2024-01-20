@@ -1,0 +1,28 @@
+.menu-text-item {
+    color: whitesmoke;
+    font-family: "Libre Baskerville", Times, serif;
+    text-align: center;
+    font-size: 1.25em;
+    margin-left: 30px; 
+    margin-right: 30px; 
+}
+
+.menu-text-item:hover {
+    font-weight: bolder;
+}
+
+.menu-logo-item {
+    height: 120px;
+}
+
+.navbar-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (if needed) */
+    width: 100%; /* Container takes full width */
+    padding: 10px; /* Padding around the container */
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+
+}
