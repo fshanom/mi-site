@@ -5,6 +5,7 @@
     font-weight: bold;
     font-size: xx-large;
     padding: 40px;
+    padding-top: 200px;
 }
 
 .image {
@@ -16,4 +17,22 @@
 
 .container {
     padding-bottom: 150px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.social-media-icons{
+    height: 30px;
+    padding: 10px;
+    filter: invert(80%);
+}
+
+.social-media-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    margin:auto;
 }
